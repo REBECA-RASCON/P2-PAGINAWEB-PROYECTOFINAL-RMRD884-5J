@@ -1,0 +1,217 @@
+/* ===== Base de toda la pagina ===== */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* ===== Aviso de envio gratis (barra azul oscuro) ===== */
+.aviso {
+  background-color: #00022e;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* ===== Encabezado (barra azul con el titulo a la izquierda) ===== */
+header {
+  background-color: #2b32ff;
+  padding: 12px 20px;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+/* ===== Menu de navegacion (centrado debajo del encabezado) ===== */
+nav {
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #2b32ff;
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 15px;
+  padding: 4px 6px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #00022e;
+}
+
+/* Texto de titulo de cada categoria (Nuestras ofertas, etc.) */
+body > p {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+/* ===== Contenido principal ===== */
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Imagen grande de la pagina de inicio */
+.imagen-principal {
+  flex: 0 1 700px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Texto de bienvenida de la pagina de inicio */
+main > p {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+/* ===== Tarjeta de producto ===== */
+.producto {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.comprar {
+  background-color: #2b32ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.comprar:hover {
+  background-color: #00022e;
+}
+
+/* ===== Formulario de inicio de sesion / registro ===== */
+.tarjeta {
+  width: 100%;
+  max-width: 360px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.tarjeta label {
+  display: block;
+  margin: 12px 0 4px;
+  font-size: 14px;
+}
+
+.tarjeta input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.btn {
+  flex: 1;
+  background-color: #2b32ff;
+  color: white;
+  border: none;
+  padding: 9px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00022e;
+}
+
+.btn-secundario {
+  background-color: #777;
+}
+
+.enlaces {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.enlaces a {
+  color: #2b32ff;
+}
+
+.mensaje {
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.mensaje.error {
+  background: #ffe3e3;
+  color: #a00000;
+}
+
+.mensaje.exito {
+  background: #dff6df;
+  color: #146c14;
+}
+
+/* ===== Pie de pagina (barra azul oscuro) ===== */
+footer {
+  background-color: #00022e;
+  margin-top: 40px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+table { 
+  margin: 0 auto; 
+  border-collapse: collapse; }
+
+th, td { border: 1px solid #ccc;
+  padding: 8px 16px; 
+  text-align: center; }
+
+/* Botones que son enlaces (pagina Cuenta) */
+a.btn {
+  text-decoration: none;
+  text-align: center;
+}
